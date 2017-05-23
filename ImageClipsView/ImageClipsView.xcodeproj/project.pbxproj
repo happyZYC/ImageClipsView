@@ -15,6 +15,7 @@
 		14C5D4971ED489AE00FAFE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C5D4951ED489AE00FAFE74 /* LaunchScreen.storyboard */; };
 		14C5D4A21ED489AE00FAFE74 /* ImageClipsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5D4A11ED489AE00FAFE74 /* ImageClipsViewTests.m */; };
 		14C5D4AD1ED489AE00FAFE74 /* ImageClipsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5D4AC1ED489AE00FAFE74 /* ImageClipsViewUITests.m */; };
+		14C5D4BD1ED48AE400FAFE74 /* ImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5D4BC1ED48AE400FAFE74 /* ImageClipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		14C5D4A81ED489AE00FAFE74 /* ImageClipsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClipsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C5D4AC1ED489AE00FAFE74 /* ImageClipsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageClipsViewUITests.m; sourceTree = "<group>"; };
 		14C5D4AE1ED489AE00FAFE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C5D4BB1ED48AE400FAFE74 /* ImageClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageClipView.h; sourceTree = "<group>"; };
+		14C5D4BC1ED48AE400FAFE74 /* ImageClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageClipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		14C5D4861ED489AE00FAFE74 /* ImageClipsView */ = {
 			isa = PBXGroup;
 			children = (
+				14C5D4BA1ED48AE400FAFE74 /* ClipsView */,
 				14C5D48A1ED489AE00FAFE74 /* AppDelegate.h */,
 				14C5D48B1ED489AE00FAFE74 /* AppDelegate.m */,
 				14C5D48D1ED489AE00FAFE74 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				14C5D4AE1ED489AE00FAFE74 /* Info.plist */,
 			);
 			path = ImageClipsViewUITests;
+			sourceTree = "<group>";
+		};
+		14C5D4BA1ED48AE400FAFE74 /* ClipsView */ = {
+			isa = PBXGroup;
+			children = (
+				14C5D4BB1ED48AE400FAFE74 /* ImageClipView.h */,
+				14C5D4BC1ED48AE400FAFE74 /* ImageClipView.m */,
+			);
+			path = ClipsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C5D4BD1ED48AE400FAFE74 /* ImageClipView.m in Sources */,
 				14C5D48F1ED489AE00FAFE74 /* ViewController.m in Sources */,
 				14C5D48C1ED489AE00FAFE74 /* AppDelegate.m in Sources */,
 				14C5D4891ED489AE00FAFE74 /* main.m in Sources */,
@@ -509,6 +523,7 @@
 				14C5D4B31ED489AE00FAFE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C5D4B41ED489AE00FAFE74 /* Build configuration list for PBXNativeTarget "ImageClipsViewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +532,7 @@
 				14C5D4B61ED489AE00FAFE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C5D4B71ED489AE00FAFE74 /* Build configuration list for PBXNativeTarget "ImageClipsViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +541,7 @@
 				14C5D4B91ED489AE00FAFE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
