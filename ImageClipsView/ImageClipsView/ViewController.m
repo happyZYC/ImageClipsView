@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 
+    NSLog(@"cesi");
     UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 120, 120)];
     imageV.image = [UIImage imageNamed:@"test2"];
     imageV.center = self.view.center;
